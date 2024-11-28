@@ -1,0 +1,45 @@
+<!-- wp:template-part {"slug":"header","theme":"mytheme","tagName":"header","className":"shadow"} /-->
+
+<!-- wp:html -->
+<!-- Main Content -->
+<main class="container !mx-auto my-16 grid grid-cols-3 gap-16">
+  <div class="col-span-2">
+    <!-- Entry -->
+    <article class="flex border-b border-b-gray-200 pb-10 mb-10">
+      <div class="grid grid-cols-3 gap-4">
+        <div>
+          <a class="post-author" href="#"><img src="/public/author.jpg" alt="Emma Gallaher"><span>John Doe</span></a>
+          <h2 class="text-xl mb-4 font-medium text-gray-700"><a href="#">We Launched Regular Drone Delivery in California. Watch Demo Video</a></h2>
+          <span class="text-gray-500">Aug 15</span>
+        </div>
+        <div class="col-span-2">
+          <a class="block rounded-lg overflow-hidden mb-4" href="#"><img src="/public/blog-post-01.jpg" class="w-full"></a>
+          <div class="flex justify-between pb-4 text-gray-500 text-sm">
+            <div><a href="#" class="blog-entry-meta-link">Travel</a>, <a href="#" class="blog-entry-meta-link">Personal finance</a></div>
+            <div><a class="bi post-comment-count !mt-0" href="#comments">8</a></div>
+          </div>
+          <p class="post-excerpt text-sm">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua... 
+            <a href="#">[Read more]</a>
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Pagination -->
+    <nav class="flex justify-between">
+      <a class="rounded-md py-2 px-4 block transition-all hover:bg-gray-100" href="#">Prev Page</a>
+      <a class="rounded-md py-2 px-4 block transition-all hover:bg-gray-100" href="#">Next Page</a>
+    </nav>
+  </div>
+  <div>
+    <!-- Sidebar -->
+    <div class="sidebar-tags">
+      <h6 class="text-xl font-medium mb-5">Blog Tags</h6>
+      <a href="#">fashion</a> <a href="#">gadgets</a> <a href="#">online shopping</a> <a href="#">top brands</a> <a href="#">travel</a>
+    </div>
+  </div>
+</main>
+<!-- /wp:html -->
+
+<!-- wp:template-part {"slug":"footer","theme":"mytheme","tagName":"footer","className":"bg-gray-700 p-16"} /-->
